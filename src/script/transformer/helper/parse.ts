@@ -24,7 +24,7 @@ function parseLine(line: string): string[] {
       if (char === '"') {
         if (i + 1 < line.length && line[i + 1] === '"') {
           currentField.push('"')
-          i++ // 跳过下一个引号
+          i++ // skip next quotation.
         } else {
           insideQuotes = false
         }
