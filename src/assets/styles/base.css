@@ -1,0 +1,11 @@
+:root {
+  --serif: ui-serif, serif;
+  --sans: 'LXGW WenKai', ui-sans-serif, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: var(--sans);
+  line-height: 1.5;
+}

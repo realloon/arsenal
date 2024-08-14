@@ -1,0 +1,9 @@
+@import './base.css';
+
+#app {
+  background-color: white;
+  width: 900px;
+  margin: 0 auto;
+  /* tmp */
+  padding-bottom: 8vh;
+}
